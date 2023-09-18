@@ -1,5 +1,5 @@
 const letters = require('./letters.json');
-const letters_knife = require('../node_modules/telephone-booth/index.json');
+const letters_knife = require('telephone-booth');
 const cangjie = require('./cangjie.json');
 
 class Guitar {
@@ -100,7 +100,7 @@ class Guitar {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['disaster'],
       web: []
     };
     
@@ -116,19 +116,19 @@ class Guitar {
     if (n.length >= 2) { // DNA
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['heart'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['bow'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['predict'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['middle'];
           break;
       }
     }
@@ -140,7 +140,7 @@ class Guitar {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['people'],
       web: []
     };
     
@@ -156,19 +156,19 @@ class Guitar {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['day'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['corpse'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['dagger-axe'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['female'];
           break;
       }
     }
@@ -180,7 +180,7 @@ class Guitar {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['dagger-axe'],
       web: []
     };
     
@@ -196,19 +196,19 @@ class Guitar {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['moon'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['bamboo'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['moon'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['wood'];
           break;
       }
     }
@@ -220,7 +220,7 @@ class Guitar {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['mountain'],
       web: []
     };
     
@@ -236,19 +236,19 @@ class Guitar {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['bamboo'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['day'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['dagger-axe'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['big'];
           break;
       }
     }
@@ -260,7 +260,7 @@ class Guitar {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['hand'],
       web: []
     };
     
@@ -276,19 +276,19 @@ class Guitar {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['bamboo'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['big'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['bow'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['heart'];
           break;
       }
     }
@@ -300,7 +300,7 @@ class Guitar {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['predict'],
       web: []
     };
     
@@ -316,19 +316,19 @@ class Guitar {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['disaster'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['gold'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['fire'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['bamboo'];
           break;
       }
     }
@@ -340,7 +340,7 @@ class Guitar {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['water'],
       web: []
     };
     
@@ -356,19 +356,19 @@ class Guitar {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['people'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['moon'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['day'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['one'];
           break;
       }
     }
@@ -380,7 +380,7 @@ class Guitar {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['dagger-axe'],
       web: []
     };
     
@@ -396,19 +396,19 @@ class Guitar {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['middle'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['bow'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['one'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['twenty'];
           break;
       }
     }
@@ -420,7 +420,7 @@ class Guitar {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['predict'],
       web: []
     };
     
@@ -436,15 +436,15 @@ class Guitar {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['female'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['moon'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['people'];
           break;
       }
     }
@@ -456,7 +456,7 @@ class Guitar {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['mountain'],
       web: []
     };
     
@@ -472,19 +472,19 @@ class Guitar {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['middle'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['corpse'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['bamboo'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['one'];
           break;
       }
     }
@@ -496,7 +496,7 @@ class Guitar {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['predict'],
       web: []
     };
     
@@ -512,19 +512,19 @@ class Guitar {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['fire'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['water'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['moon'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['corpse'];
           break;
       }
     }
@@ -536,7 +536,7 @@ class Guitar {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['predict'],
       web: []
     };
     
@@ -552,19 +552,19 @@ class Guitar {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['mouth'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['fire'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['disaster'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['water'];
           break;
       }
     }
@@ -576,7 +576,7 @@ class Guitar {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['mountain'],
       web: []
     };
     
@@ -592,19 +592,19 @@ class Guitar {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['disaster'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['twenty'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['middle'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['ten'];
           break;
       }
     }
@@ -616,7 +616,7 @@ class Guitar {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['twenty'],
       web: []
     };
     
@@ -632,19 +632,19 @@ class Guitar {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['ten'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['predict'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['bamboo'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['disaster'];
           break;
       }
     }
@@ -656,7 +656,7 @@ class Guitar {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['predict'],
       web: []
     };
     
@@ -672,15 +672,15 @@ class Guitar {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['gold'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['day'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['corpse'];
           break;
       }
     }
@@ -692,7 +692,7 @@ class Guitar {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['mouth'],
       web: []
     };
     
@@ -708,19 +708,19 @@ class Guitar {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['big'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['disaster'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['female'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['ten'];
           break;
       }
     }
@@ -732,7 +732,7 @@ class Guitar {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['predict'],
       web: []
     };
     
@@ -748,19 +748,19 @@ class Guitar {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['middle'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['bamboo'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['moon'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['dagger-axe'];
           break;
       }
     }
@@ -772,7 +772,7 @@ class Guitar {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['predict'],
       web: []
     };
     
@@ -788,19 +788,19 @@ class Guitar {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['middle'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['disaster'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['corpse'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['earth'];
           break;
       }
     }
@@ -812,7 +812,7 @@ class Guitar {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['twenty'],
       web: []
     };
     
@@ -828,19 +828,19 @@ class Guitar {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['gold'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['mountain'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['gold'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['one'];
           break;
       }
     }
@@ -852,7 +852,7 @@ class Guitar {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['mouth'],
       web: []
     };
     
@@ -868,19 +868,19 @@ class Guitar {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['bamboo'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['dagger-axe'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['middle'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['moon'];
           break;
       }
     }
@@ -892,7 +892,7 @@ class Guitar {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['mouth'],
       web: []
     };
     
@@ -908,19 +908,19 @@ class Guitar {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['heart'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['gold'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['earth'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['one'];
           break;
       }
     }
@@ -932,7 +932,7 @@ class Guitar {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['predict'],
       web: []
     };
     
@@ -948,19 +948,19 @@ class Guitar {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['middle'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['corpse'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['day'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['female'];
           break;
       }
     }
@@ -972,7 +972,7 @@ class Guitar {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['dagger-axe'],
       web: []
     };
     
@@ -988,19 +988,19 @@ class Guitar {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['mouth'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['bow'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['day'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['wood'];
           break;
       }
     }
@@ -1012,7 +1012,7 @@ class Guitar {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['dagger-axe'],
       web: []
     };
     
@@ -1028,11 +1028,11 @@ class Guitar {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['water'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['middle'];
           break;
       }
     }
@@ -1044,7 +1044,7 @@ class Guitar {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['water'],
       web: []
     };
     
@@ -1060,19 +1060,19 @@ class Guitar {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['middle'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['dagger-axe'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['wood'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['water'];
           break;
       }
     }
@@ -1084,7 +1084,7 @@ class Guitar {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['field'],
       web: []
     };
     
@@ -1100,19 +1100,19 @@ class Guitar {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['bamboo'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['wood'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['people'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['female'];
           break;
       }
     }
